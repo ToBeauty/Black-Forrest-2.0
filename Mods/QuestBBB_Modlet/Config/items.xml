@@ -1,0 +1,69 @@
+<configs>
+
+
+<append xpath="/items">
+
+<item name="T1QuestTicketBBB">
+	<property name="Extends" value="questMaster"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="9C8867"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="tier1_fetchBBB"/>
+	</property>
+</item>
+
+<item name="T2QuestTicketBBB">
+	<property name="Extends" value="questMaster"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="CF7F29"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="tier2_fetchBBB"/>
+	</property>
+</item>
+
+<item name="T3QuestTicketBBB">
+	<property name="Extends" value="questMaster"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="A2A41B"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="tier3_fetchBBB"/>
+	</property>
+</item>
+
+<item name="T4QuestTicketBBB">
+	<property name="Extends" value="questMaster"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="42C234"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="tier4_fetchBBB"/>
+	</property>
+</item>
+
+<item name="T5QuestTicketBBB">
+	<property name="Extends" value="questMaster"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="315DCE"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="tier5_fetchBBB"/>
+	</property>
+</item>
+
+<item name="T6QuestTicketBBB">
+	<property name="Extends" value="questMaster"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="A42ACC"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="tier6_fetchBBB"/>
+	</property>
+</item>
+
+</append>
+
+
+</configs>
