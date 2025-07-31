@@ -1,0 +1,10 @@
+<configs>
+
+<insertBefore xpath="//window_group[@name='crafting']" >
+		<window_group name="serverinfowindow">
+			<window name="serverinfowindow" />
+		</window_group>
+</insertBefore>
+
+
+</configs>

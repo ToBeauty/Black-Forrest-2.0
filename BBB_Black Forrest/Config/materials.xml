@@ -1,0 +1,14 @@
+<configs>
+
+<append xpath="/materials">
+
+<material id="MmeleeWpnMorgenSternParts">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="meleeWpnClubT3MorgenSternClubParts"/>
+	<property name="Experience" value="6"/>
+</material>
+
+</append>
+
+</configs>

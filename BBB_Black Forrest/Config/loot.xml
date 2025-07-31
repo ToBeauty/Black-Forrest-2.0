@@ -1,0 +1,26 @@
+<configs>
+
+<!-- Golden Egg finden --><!--
+<append xpath="/lootcontainers/lootgroup[@name='groupDumpsterFood' or @name='groupBirdNest02' or @name='groupIngredientsRare']">
+
+	<item name="foodGoldenEggBBB" count="1" loot_prob_template="Low"/>
+
+</append>
+-->
+
+<append xpath="/lootcontainers/lootgroup[@name='groupBirdNest01' or @name='groupBirdNest02']">
+
+	<item name="foodGoldenEggBBB" count="1" loot_prob_template="veryLowDelayed"/>
+
+</append>
+
+<!-- Morgensten Parts finden -->
+<append xpath="/lootcontainers/lootgroup[@name='groupWeapons_MeleeParts' or @name='weaponParts']">
+
+	<item name="meleeWpnClubT3MorgenSternClubParts" count="2,5"/>
+
+</append>
+
+
+
+</configs>

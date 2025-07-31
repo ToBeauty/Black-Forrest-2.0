@@ -1,0 +1,72 @@
+<configs>
+
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingClubs']" >
+
+	<display_entry item="meleeWpnClubT0WoodenClub" unlock_level="1,2,4,6,8,10" />
+	<display_entry item="meleeWpnClubT1BaseballBat" unlock_level="11,15,20,25,30,35" />
+	<display_entry item="meleeWpnClubT3SteelClub" unlock_level="36,43,51,59,67,75" />
+	<display_entry item="meleeWpnClubT3MorgenSternClub" unlock_level="56,59,63,67,71,75" />
+
+	<effect_group>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,75" value="1" tags="meleeWpnClubT0WoodenClub"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,75" value="1" tags="meleeWpnClubT1BaseballBat"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="36,75" value="1" tags="meleeWpnClubT3SteelClub"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="56,100" value="1" tags="meleeWpnClubT3MorgenSternClub"/>
+
+		<passive_effect name="CraftingTier" operation="base_add" level="2,4,6,8,10,75" value="1,2,3,4,5,5" tags="meleeWpnClubT0WoodenClub"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="15,20,25,30,35,75" value="1,2,3,4,5,5" tags="meleeWpnClubT1BaseballBat"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="43,51,59,67,75" value="1,2,3,4,5" tags="meleeWpnClubT3SteelClub"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="59,63,67,71,75" value="1,2,3,4,5" tags="meleeWpnClubT3MorgenSternClub"/>
+	</effect_group>
+
+</set>
+
+
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']">
+
+		<display_entry icon="medicalFirstAidBandage,drugFortBites" name_key="medicalT1-1,medicalT1-2" has_quality="false" unlock_level="5,10" >
+			<unlock_entry item="medicalFirstAidBandage" unlock_tier="1" />
+			<unlock_entry item="drugFortBites" unlock_tier="2" />
+		</display_entry>
+		
+		<display_entry icon="medicalPlasterCast,drugHerbalAntibiotics,drugRecog" name_key="medicalT2-1,medicalT2-2,medicalT2-3" has_quality="false" unlock_level="20,30,40" >
+			<unlock_entry item="medicalPlasterCast" unlock_tier="1" />
+			<unlock_entry item="drugHerbalAntibiotics" unlock_tier="2" />
+			<unlock_entry item="drugRecog" unlock_tier="3" />
+		</display_entry>
+		
+		<display_entry icon="medicalFirstAidKit,drugAntibiotics,drugSteroids" name_key="medicalT3-1,medicalT3-2,medicalT3-3" has_quality="false" unlock_level="50,60,75" >
+			<unlock_entry item="medicalFirstAidKit,drinkJarBeer" unlock_tier="1" />
+			<unlock_entry item="drugAntibiotics" unlock_tier="2" />
+			<unlock_entry item="drugSteroids" unlock_tier="3" />
+		</display_entry>
+		
+		<display_entry icon="Nebel_Block_00BlockVariantHelper,Nebel_Block_00_RotBlockVariantHelper,Nebel_Block_00_BlauBlockVariantHelper,Nebel_Block_00_GelbBlockVariantHelper" name_key="medicalT4-1,medicalT4-2,medicalT4-3,medicalT4-4" has_quality="false" unlock_level="55,65,70,75" >
+			<unlock_entry item="Nebel_Block_00BlockVariantHelper" unlock_tier="1" />
+			<unlock_entry item="Nebel_Block_00_RotBlockVariantHelper" unlock_tier="2" />
+			<unlock_entry item="Nebel_Block_00_BlauBlockVariantHelper" unlock_tier="3" />
+			<unlock_entry item="Nebel_Block_00_GelbBlockVariantHelper" unlock_tier="4" />
+		</display_entry>
+
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="medicalFirstAidBandage"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="drugFortBites"/>
+
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="medicalPlasterCast"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="drugHerbalAntibiotics"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="drugRecog"/>
+
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="medicalFirstAidKit"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="drugAntibiotics"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="drugSteroids"/>
+
+
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="Nebel_Block_00BlockVariantHelper"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,100" value="1" tags="Nebel_Block_00_RotBlockVariantHelper"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="Nebel_Block_00_BlauBlockVariantHelper"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="Nebel_Block_00_GelbBlockVariantHelper"/>
+		</effect_group>
+</set>
+
+
+</configs>

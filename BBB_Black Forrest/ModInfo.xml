@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="BBB_BlackForrest" />
+	<DisplayName value="BBB_BlackForrest" />
+	<Description value="BBB_BlackForrest Mod to be used with 7 Days to Die" />
+	<Author value="BlueBerryBlue" />
+	<Version value="0.0.1.0" />
+	<Website value="https://github.com/BlueBerryBlue21/Black-Forrest" />
+	<SkipWithAntiCheat value="true" />
+</xml>

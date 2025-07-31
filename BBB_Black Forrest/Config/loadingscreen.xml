@@ -1,0 +1,17 @@
+<configs>
+
+	<!-- <set xpath="doc/backgrounds"> -->
+		<!-- <tex file="@modfolder:UIAtlases/ItemIconAtlas/bg_01.jpg"/> -->
+		<!-- <tex file="@modfolder:UIAtlases/ItemIconAtlas/bg_02.jpg"/> -->
+		<!-- <tex file="@modfolder:UIAtlases/ItemIconAtlas/bg_03.jpg"/> -->
+		<!-- <tex file="@modfolder:UIAtlases/ItemIconAtlas/bg_04.jpg"/> -->
+		<!-- <tex file="@modfolder:UIAtlases/ItemIconAtlas/bg_05.jpg"/> -->
+		<!-- <tex file="@modfolder:UIAtlases/ItemIconAtlas/bg_06.jpg"/> -->
+		<!-- <tex file="@modfolder:UIAtlases/ItemIconAtlas/bg_07.jpg"/> -->
+		<!-- <tex file="@modfolder:UIAtlases/ItemIconAtlas/bg_08.jpg"/> -->
+		<!-- <tex file="@modfolder:UIAtlases/ItemIconAtlas/Pan.jpg"/> -->
+		<!-- <tex file="@modfolder:UIAtlases/ItemIconAtlas/bg_09.png"/> -->
+		<!-- <tex file="@modfolder:UIAtlases/ItemIconAtlas/Skanki.png"/> -->
+	<!-- </set> -->
+
+</configs>

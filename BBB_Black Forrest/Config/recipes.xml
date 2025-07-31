@@ -1,0 +1,92 @@
+<configs>
+
+
+<insertAfter xpath="/recipes/recipe[@name='armorParts']">
+<recipe name="meleeWpnClubT3MorgenSternClubParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+</insertAfter>
+
+<append xpath="/recipes">
+
+
+<recipe name="Bild1BlockVariantHelper" count="1" craft_time="1" tags="packMuleCrafting">
+	<ingredient name="resourceCloth" count="15"/>
+	<ingredient name="resourceWood" count="5"/>
+	<ingredient name="resourcePaint" count="5"/>
+	<ingredient name="resourceNail" count="5"/>
+</recipe>
+
+
+<!-- Stacheldraht -->
+<recipe name="barbedWireSheet" count="1">
+	<ingredient name="resourceScrapIron" count="10"/>
+</recipe>
+
+<recipe name="resourceSewingKit" count="1" tags="packMuleCrafting">
+	<ingredient name="resourceWood" count="5"/>
+	<ingredient name="resourceCloth" count="20"/>
+	<ingredient name="resourceNail" count="1"/>
+</recipe>
+
+
+<recipe name="BatteryMD21" count="1" craft_area="chemistryStation" tags="perkAdvancedEngineering,chemStationCrafting">
+	<ingredient name="resourceScrapLead" count="180"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceAcid" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5" operation="base_add" value="-1" tags="resourceScrapLead,resourceScrapPolymers"/>
+	</effect_group>
+</recipe>
+
+<recipe name="8mrampif1BlockVariantHelper" count="1">
+	<ingredient name="resourceWood" count="2"/>
+</recipe>
+
+<recipe name="6mrampif1BlockVariantHelper" count="1">
+	<ingredient name="resourceWood" count="2"/>
+</recipe>
+
+<recipe name="4mrampif1BlockVariantHelper" count="1">
+	<ingredient name="resourceWood" count="2"/>
+</recipe>
+
+<recipe name="Nebel_Block_00BlockVariantHelper" count="5" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,chemStationCrafting">
+	<ingredient name="bucketRiverWater" count="1"/>
+	<ingredient name="resourcePaint" count="100"/>
+	<ingredient name="resourceAcid" count="5"/>
+</recipe>
+
+<recipe name="Nebel_Block_00_RotBlockVariantHelper" count="5" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,chemStationCrafting">
+	<ingredient name="bucketRiverWater" count="1"/>
+	<ingredient name="resourcePaint" count="100"/>
+	<ingredient name="resourceAcid" count="5"/>
+</recipe>
+
+<recipe name="Nebel_Block_00_BlauBlockVariantHelper" count="5" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,chemStationCrafting">
+	<ingredient name="bucketRiverWater" count="1"/>
+	<ingredient name="resourcePaint" count="100"/>
+	<ingredient name="resourceAcid" count="5"/>
+</recipe>
+
+<recipe name="Nebel_Block_00_GelbBlockVariantHelper" count="5" craft_area="chemistryStation" tags="learnable,perkAdvancedEngineering,chemStationCrafting">
+	<ingredient name="bucketRiverWater" count="1"/>
+	<ingredient name="resourcePaint" count="100"/>
+	<ingredient name="resourceAcid" count="5"/>
+</recipe>
+
+<recipe name="meleeWpnClubT3MorgenSternClub" count="1" craft_area="workbench" tags="learnable,perkPummelPete,workbenchCrafting">
+	<ingredient name="meleeWpnClubT3MorgenSternClubParts" count="1"/>
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceDuctTape" count="6"/>
+	<ingredient name="resourceLegendaryParts" count="0"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="meleeWpnClubT3MorgenSternClubParts,resourceForgedSteel,resourceWood,resourceDuctTape"/>
+		<passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+	</effect_group>
+</recipe>
+
+
+
+</append>
+
+</configs>
